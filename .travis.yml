@@ -1,0 +1,12 @@
+language: python
+python:
+- '3.7'
+
+# command to install dependencies
+before_install:
+  - python --version
+  - pip install codecov
+
+# command to run tests
+script:
+  - python project_test.py
