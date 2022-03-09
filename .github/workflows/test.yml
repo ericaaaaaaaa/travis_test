@@ -12,7 +12,9 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: 3.8
+      - name: List dir
+        run: dir
       - name: Check version
         run: python --version
       - name: Run test
-        run: python project_test.py
+        run: python ../../project_test.py
