@@ -6,7 +6,7 @@ class MyTestCase(unittest.TestCase):
         self.assertTrue(True, "should be True")
 
     def test_greater(self):
-        self.assertGreater(1, 2, "should be greater")
+        self.assertGreater(3, 2, "should be greater")
 
     def test_equal(self):
         self.assertEqual(False, False, "should be equal")
